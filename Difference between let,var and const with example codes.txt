@@ -1,0 +1,44 @@
+Q2: The difference between var, let and const with code example
+
+ var: -
+1.      var is function-scoped
+2.      var return undefined when accessing a variable before it's declared
+
+let: -
+1.      let is block-scoped
+2.      let throw ReferenceError when accessing a variable before it's declared
+
+const:-
+1.      Const is block-scoped
+2.      Const throw ReferenceError when accessing a variable before it's declared
+3.      Const cannot be reassigned
+Var example :
+
+ var x = 5;
+function a() {
+    x = 6;
+    return x;
+}
+console.log(x);
+console.log(a());
+
+Let example :
+
+ let x = 5;
+function a() {
+    let x = 6;
+    return x;
+}
+console.log(x);
+console.log(a());
+
+constant example :
+  
+ const x = 5;
+function a() {
+    let x = 6;
+    return x;
+}
+console.log(x);
+console.log(a());
+

@@ -1,0 +1,53 @@
+Q3. Datatypes in javascript
+           In javascript there is two different kind of datatypes 
+        1.primitive
+       2.object
+In javascript, there are six primtive data types:
+*Boolean
+*Number
+*String
+*Null
+*Undefined
+*Symbol
+
+Boolean :
+          A boolean represents only one of two values: true, or false.
+        example: fun boo1 = true;
+                                 fun boo2 = false;
+Number :
+          Numbers can be written with or without a decimal point. A number can also be +Infinity, -Infinity, and NaN (not a number).
+          Example: var num1 = 32;
+                                  var num2 = +Infinity;
+String :
+         Strings must be inside of either double or single quotes. In JS, Strings are immutable.
+         Example: var str1 = 'hello, it is me';
+                                 var str2 = "hello, it's me";
+Null :
+         Null has one value: null. It is explicitly nothing.
+         Example: var nothing = null;
+Underfined :
+         A variable that has no value is undefined.
+        Example : var testVar;
+                                 console.log(testVar); // undefined
+Symbol
+         Symbols are new in ES6. A Symbol is an immutable primitive value that is unique. For the sake of brevity, that is the extent that this article will cover Symbols.
+         Example : const mySymbol = Symbol('mySymbol');
+
+Objects
+      * Objects are not a primitive data Type.
+      *An object is a collection of properties. These properties are stored in key/value pairs. Properties can reference any type of data, including objects and/or primitive values.
+
+       Example : var obj = {
+                                                       key1: 'value',
+                                                       key2: 'value',
+                                                       key3: true,
+                                                       key4: 32,
+                                                       key5: {}
+                                                       }
+
+Loosely Typed
+
+        JavaScript is a loosely typed language. This means you don’t have to declare a variable’s type. JavaScript automatically determines it for you. It also means that a variables type can change. Let’s look at an example:
+        We’ll create a variable named car and set it equal to a string value:
+
+        Example : var car = 'ford';
