@@ -1,0 +1,68 @@
+Q2.Explain with examples the remaining methods of String and Array?
+STRING:
+The substr() Method
+
+The difference is that the second parameter specifies the length of the extracted part.
+Example
+var str = "Apple, Banana, Kiwi";
+var res = str.substr(7, 6);
+
+Replacing String Content
+
+The replace() method replaces a specified value with another value in a string:
+Example
+str = "Please visit Microsoft!";
+var n = str.repl
+ace("Microsoft", "W3Schools");
+
+String.trim()
+
+The trim() method removes whitespace from both sides of a string:
+Example
+var str = "       Hello World!        ";
+alert(str.trim()); 
+
+Converting a String to an Array
+
+A string can be converted to an array with the split() method:
+Example
+var txt = "a,b,c,d,e";   // String
+txt.split(",");          // Split on commas
+txt.split(" ");         // Split on spaces
+txt.split("|");       // Split on pipe
+
+ARRAY :
+
+An array is an ordered list of elements; each element has a value of any type. You can define an array by placing a list of values between brackets ([]):
+ Example: let myArray = [2, 'Pete', 2.99, 'another string']
+
+Associative Arrays
+
+Many programming languages support arrays with named indexes.
+
+Arrays with named indexes are called associative arrays (or hashes).
+
+JavaScript does not support arrays with named indexes.
+
+In JavaScript, arrays always use numbered indexes.  
+Example
+var person = [];
+person[0] = "John";
+person[1] = "Doe";
+person[2] = 46;
+var x = person.length;     // person.length will return 3
+var y = person[0];         // person[0] will return "John" 
+
+Modifying Arrays
+
+Arrays wouldn't be practical if we couldn't modify them. We need the ability to add, remove, and replace elements. The [] operator and some array methods help us accomplish these tasks.
+
+Example : 
+                           let array = [1, 2, 3]
+                           array[1] = 4
+                            = 4
+                           array
+                           = [ 1, 4, 3 ]
+
+
+
